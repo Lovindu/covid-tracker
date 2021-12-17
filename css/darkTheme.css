@@ -1,0 +1,74 @@
+body.dark h1 {
+  color: white;
+}
+
+body.dark .update {
+  color: white;
+}
+body.dark .section-1 {
+  border: 2px solid white;
+}
+
+body.dark .new-cases-text {
+  color: white;
+}
+
+body.dark .deaths-text {
+  color: white;
+}
+
+body.dark .activeCases-text {
+  color: white;
+}
+
+body.dark .item-1 {
+  border: 2px solid white;
+}
+
+body.dark .item-2 {
+  border: 2px solid white;
+}
+
+body.dark .total-cases-text {
+  color: white;
+}
+
+body.dark .total-deaths-text {
+  color: white;
+}
+
+body.dark .local-status-right {
+  border: 2px solid white;
+}
+
+body.dark .total-recovered-text {
+  color: white;
+}
+
+body.dark .pcr-count-text {
+  color: white;
+}
+
+body.dark .pcr-date {
+  color: white;
+}
+
+body.dark .global-right-side {
+  border: 2px solid white;
+}
+
+body.dark .global-recovered-text {
+  color: white;
+}
+
+body.dark .pcrcount-text {
+  color: white;
+}
+
+body.dark .antigen-text {
+  color: white;
+}
+
+body.dark .footer {
+  background-color: rgb(75, 73, 73);
+}

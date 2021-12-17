@@ -1,0 +1,291 @@
+@media only screen and (max-width: 1024px) {
+  .local-status {
+    margin-top: 30px;
+  }
+
+  .section-1 {
+    display: flex;
+    max-width: 650px;
+    height: 160px;
+    border: 2px solid black;
+    margin-left: 50px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  .section1-details {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .items {
+    margin-left: 20px;
+    max-width: 700px;
+  }
+
+  .item-1 > div > p {
+    font-size: 20px;
+  }
+
+  .item-2 > div > p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .local-status {
+    margin-top: 30px;
+  }
+
+  .section-1 {
+    display: flex;
+    max-width: 450px;
+    height: 160px;
+    border: 2px solid black;
+    margin-left: 0px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  .section1-details {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+
+  .new-cases-text {
+    font-size: 15px;
+  }
+
+  .new-cases-num {
+    font-size: 15px;
+  }
+
+  .deaths-text {
+    font-size: 15px;
+  }
+
+  .deaths-num {
+    font-size: 15px;
+  }
+
+  .active-cases > p {
+    font-size: 15px;
+  }
+
+  .items {
+    margin-left: -20px;
+    max-width: 480px;
+  }
+
+  .item-1 > div > p {
+    font-size: 15px;
+  }
+
+  .item-2 > div > p {
+    font-size: 15px;
+  }
+
+  .local-status-right {
+    width: 150px;
+    height: 380px;
+  }
+
+  .total-recovered-text {
+    font-size: 15px;
+  }
+
+  .pcr-count-text {
+    font-size: 15px;
+  }
+
+  .pcr-date {
+    font-size: 12px;
+  }
+
+  .right-logo > img {
+    margin-top: 70px;
+    margin-left: 100px;
+  }
+
+  .global-right-side {
+    width: 150px;
+    height: 380px;
+    margin-right: 10px;
+  }
+
+  .global-right-side {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 150px;
+    height: 400px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+
+  .global-recovered-text {
+    font-size: 15px;
+  }
+
+  .global-recovered {
+    font-size: 15px;
+  }
+
+  .hoverview {
+    align-items: center;
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .local-status {
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .local-status-topic > center > h1 {
+    font-size: 1.4rem;
+  }
+
+  .section-1 {
+    max-width: 320px;
+    height: 380px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .section1-details {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 15px;
+  }
+
+  .section1-logo {
+    margin-top: 100px;
+    margin-right: 10px;
+  }
+
+  .new-cases-text {
+    font-size: 15px;
+  }
+
+  .new-cases-num {
+    font-size: 20px;
+  }
+
+  .deaths-text {
+    font-size: 20px;
+  }
+
+  .deaths-num {
+    font-size: 20px;
+  }
+
+  .active-cases > p {
+    font-size: 20px;
+  }
+
+  .items {
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .item-1 {
+    max-width: 300px;
+    margin-right: 10px;
+    align-items: center;
+  }
+
+  .item-2 {
+    max-width: 300px;
+    margin-right: 10px;
+  }
+
+  .item-1 > div > p {
+    font-size: 20px;
+  }
+
+  .item-2 > div > p {
+    font-size: 20px;
+  }
+
+  .section1-logo {
+    margin-top: 180px;
+    margin-right: 10px;
+  }
+
+  .local-status-right {
+    width: 280px;
+    height: 380px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .total-recovered-text {
+    font-size: 15px;
+  }
+
+  .pcr-count-text {
+    font-size: 15px;
+  }
+
+  .pcr-date {
+    font-size: 12px;
+  }
+
+  .right-logo > img {
+    margin-top: 80px;
+    margin-left: 140px;
+  }
+
+  .global-status {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .global-status-topic > center > h1 {
+    font-size: 1.4rem;
+  }
+
+  .global-right-side {
+    width: 280px;
+    height: 200px;
+  }
+
+  .right-logo-global > img {
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .pct-antigen > center > h1 {
+    font-size: 1.2rem;
+  }
+
+  .hoverview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/darkTheme.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <title>Covid Tracker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <p>COVID TRACKER</p>
+
+        <div class="dark-theme">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <img src="images/sun.png" alt="sun">
+                <img src="images/moon (1).png" alt="moon">
+                <div class="circle"></div>
+            </label>
+        </div>
+    </div>
+
+    <div class="update">
+        <p>Last Update: </p>
+        <span id="updated_date">2021-12-15</span>
+    </div>
+    
+    <div class="local-status-topic">
+        <center><h1>Local Status (Sri Lanka)</h1></center>
+    </div>
+
+    <div class="local-status">
+        <div class="local-status-left">
+
+            <div class="section-1">
+                <div class="section1-details">
+                    <div class="new-cases">
+                        <p class="new-cases-text">New Cases</p>
+                        <p class="new-cases-num" id="new-cases-local">00</p>
+                        <p class="hours">In last 24 hours</p>
+                    </div>
+
+                    <div class="deaths">
+                        <p class="deaths-text">Deaths</p>
+                        <p class="deaths-num" id="deaths-local">00</p>
+                        <p class="hours">In last 24 hours</p>
+                    </div>
+
+                    <div class="active-cases">
+                        <p class="activeCases-text">Active Cases</p>
+                        <p class="activeCases-num" id="active-cases-local">00</p>
+                    </div>
+                </div>
+
+                <div class="section1-logo">
+                    <img src="images/virus (1).png" alt="virus" class="virus-image">
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="item-1">
+                    <div>
+                        <p class="total-cases-text">Total Cases</p>
+                        <p class="total-cases-num" id="total-cases-local">00</p>
+                    </div>
+    
+                    <div class="items-logo">
+                        <img src="images/virus (1).png" alt="virus" class="virus-image">
+                    </div>
+                </div>
+    
+                <div class="item-2">
+                    <div>
+                        <p class="total-deaths-text">Total Deaths</p>
+                        <p class="total-deaths-num" id="total-deaths-local">00</p>
+                    </div>
+    
+                    <div class="items-logo">
+                        <img src="images/virus (1).png" alt="virus" class="virus-image">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="local-status-right">
+            <div class="right-details">
+                <p class="total-recovered-text">Total Recovered</p>
+                <p class="total-recovered-num" id="total-recovered-local">00</p>
+
+                <p class="pcr-count-text">PCR Count</p>
+                <p class="pcr-count" id="pcr-count">00</p>
+                <p class="pcr-date" id="pcr-date"></p>
+            </div>
+
+            <div class="right-logo">
+                <img src="images/virus (1).png" alt="virus">
+            </div>
+        </div>
+    </div>
+
+    <div class="global-status-topic">
+        <center><h1>Global Status</h1></center>
+    </div>
+
+    <!--global details-->
+    <div class="global-status">
+
+        <div class="global-left-side">
+            <div class="items">
+                <div class="item-1">
+                    <div>
+                        <p class="total-cases-text">New Cases</p>
+                        <p class="total-cases-num" id="new-cases-global">00</p>
+                    </div>
+    
+                    <div class="items-logo">
+                        <img src="images/virus (1).png" alt="virus" class="virus-image">
+                    </div>
+                </div>
+    
+                <div class="item-2">
+                    <div>
+                        <p class="total-deaths-text">Deaths</p>
+                        <p class="total-deaths-num" id="deaths-global">00</p>
+                    </div>
+    
+                    <div class="items-logo">
+                        <img src="images/virus (1).png" alt="virus" class="virus-image">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="items">
+                <div class="item-1">
+                    <div>
+                        <p class="total-cases-text">Total Cases</p>
+                        <p class="total-cases-num" id="total-cases-Global">00</p>
+                    </div>
+    
+                    <div class="items-logo">
+                        <img src="images/virus (1).png" alt="virus" class="virus-image">
+                    </div>
+                </div>
+    
+                <div class="item-2">
+                    <div>
+                        <p class="total-deaths-text">Total Deaths</p>
+                        <p class="total-deaths-num" id="total-deaths-global">00</p>
+                    </div>
+    
+                    <div class="items-logo">
+                        <img src="images/virus (1).png" alt="virus" class="virus-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="global-right-side">
+            <p class="global-recovered-text">Total Recovered</p>
+            <p class="global-recovered" id="global-recovered">00</p>
+
+            <div class="right-logo-global">
+                <img src="images/virus (1).png" alt="virus">
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="pct-antigen">
+       <center><h1>PCR and antigen tests (Sri Lanka)</h1></center> 
+    </div>
+
+
+    <center>
+        <div class="hospital-overview">
+            <div class="hoverview">
+                <p class="pcrcount-text">Total number of PCR tests have been done</p>
+                <p class="h-count" id="total-pcr-count">00</p>
+            </div>
+    
+            <div class="hoverview">
+                <p class="antigen-text">Total number of antigen tests have been done</p>
+                <p class="h-count" id="total-antigen-count">00</p>
+            </div>
+    
+        </div>
+    </center>
+    
+
+    <div class="footer">
+        <center><p><span id="year"></span> &copy; All rights reserved</p></center>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
